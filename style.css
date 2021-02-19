@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.header {
+	background: rgb(0, 82, 208);
+	color: white;
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
+	display: flex;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+.header__img {
+	margin: 10px 30px 10px 30px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+	background: white;
+	color: black;
+	padding-right: 70px;
+	border-right: 5px solid yellow;
+}
+
+.header__contacts {
+	display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.header__contacts a {
+	margin-left: 30px;
+	color: white;
+}
+
+.header__contacts a:hover {
+	color: yellow;
+}
+
+.content {
+	position: absolute;
+	margin-top: 100px;
+	line-height: 2.5;
+	margin-right: 20px;
+ 	margin-left: 30px;
+}
+
+span {
+	background-color: #f2c94c; 
+	border-radius: 3px;
+	padding: 3px 14px 3px;
+	margin-left: 5px;
+}
+
+.input-wrap {
+	margin-left: 30px;
+	line-height: 1.5;
+}
+
+.input-wrap input {
+	width: 360px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	background: #F4ECEC;
+	border: 1px solid #B8B8B8;
+	border-radius: 5px;
+	margin: 5px 0 15px 0;
+}
+
+#check {
+	height: 20px;
+    width: 20px;
+}
+
+.checkbox {
+	margin: 20px 0 30px 30px;
+	display: flex;
+	align-items: center;
+	line-height: 1;
+}
+
+.checkbox__label {
+	margin-left: 10px;
+}
+
+button {
+	font-weight: 500;
+	width: 360px;
+	background: #0052D0;
+	border: 1px solid #0052D0;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	margin: 10px 0 50px 30px;
+	font-size: 16px;
+}
